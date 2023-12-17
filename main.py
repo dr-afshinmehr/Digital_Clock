@@ -2,7 +2,7 @@ import tkinter as tk
 from time import strftime
 
 def time():
-    string = strftime('%I:%M:%S %p')
+    string = strftime('%I:%M:%S  %p')
     label.config(text = string)
     label.after(1000, time)
 
